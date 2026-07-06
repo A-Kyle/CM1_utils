@@ -7,8 +7,7 @@ function mn(args)
 *
 ***      Purpose : Generate a background sounding file for Cloud Model 1
 ***                 (lsnudge file) with user-specified flow;
-***                 key parameters include steering, shear, and helicity
-***                 using NAM 3-km CONUS model forecast data. 
+***                 key parameters include steering, shear, and helicity.
 ***
 ***        Usage : from shell:  grads -blcx "gen_background.gs [arguments]"
 ***                in GrADS:    gen_background.gs [arguments]
