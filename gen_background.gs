@@ -186,12 +186,6 @@ else
   _Hn = 0;
 endif
 
-_z0   = subwrd(args, 4);  ;* bottom of steering layer (m)
-_zb   = subwrd(args, 5);  ;* bottom of shear layer (m)
-_zt   = subwrd(args, 6);  ;* top of shear layer (m)
-_D    = subwrd(args, 7);  ;* top of steering layer (m)
-_ztop = subwrd(args, 8);  ;* top of model (m)
-
 if (_D > _ztop)
   say 'Info:  _ztop = '_ztop
   say 'Info:  _D = '_D
