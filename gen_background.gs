@@ -32,8 +32,8 @@ function mn(args)
 ***                 12) Sv = v-component of shear     (m/s, real)
 ***                 13) Hn = Non-dimensional helicity (unitless, real)
 ***
-***   Assumptions : 1) disk space & permission to create output image 
-***                     in working directory
+***   Assumptions : 1) disk space & permission to create outputs 
+***                     (lsnudge file and image) in working directory
 ***                 2) input_sounding file (e.g., from Dunion (2011))
 ***                     exists in working directory
 ***
