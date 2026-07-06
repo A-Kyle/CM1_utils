@@ -83,12 +83,12 @@ _D    = subwrd(args, 7);  ;* top of steering layer (m)
 _ztop = subwrd(args, 8);  ;* top of model (m)
 
 ;* steering (optional)
-_us = subwrd(args, 9);    ;* x-component of steering (m/s)
-_vs = subwrd(args, 10);   ;* y-component of steering (m/s)
+_us = subwrd(args, 9);    ;* u-component of steering (m/s)
+_vs = subwrd(args, 10);   ;* v-component of steering (m/s)
 
 ;* shear [optional, must specify steering (can be 0)]
-_Su = subwrd(args, 11);   ;* x-component of shear (m/s)
-_Sv = subwrd(args, 12);   ;* y-component of shear (m/s)
+_Su = subwrd(args, 11);   ;* u-component of shear (m/s)
+_Sv = subwrd(args, 12);   ;* v-component of shear (m/s)
 
 ;* helicity (optional, must specify shear)
 _Hn = subwrd(args, 13);   ;* non-dimensional helicity parameter (unitless)
@@ -142,25 +142,25 @@ endif
 if (issteer)
   if (valnum(_us) = 0)
     say 'Info:  _us = '_us
-    say 'Error: x-component of steering not a number.'
+    say 'Error: u-component of steering not a number.'
     info();
     exit;
   endif
   if (valnum(_vs) = 0)
     say 'Info:  _vs = '_vs
-    say 'Warn:  y-component of steering not a number. Assuming 0.'
+    say 'Warn:  v-component of steering not a number. Assuming 0.'
     _vs = 0;
   endif
   if (isshear)
     if (valnum(_Su) = 0)
       say 'Info:  _Su = '_Su
-      say 'Error: x-component of shear not a number.'
+      say 'Error: u-component of shear not a number.'
       info();
       exit;
     endif
     if (valnum(_Sv) = 0)
       say 'Info:  _Sv = '_Sv
-      say 'Warn:  y-component of shear not a number. Assuming 0.'
+      say 'Warn:  v-component of shear not a number. Assuming 0.'
       _Sv = 0;
     endif
     if (ishelic)
