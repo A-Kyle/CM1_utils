@@ -2,7 +2,7 @@
 #### Repo created 6 July 2026
 
 This repository contains utility scripts and notebooks for use with 
-Cloud Model 1 ([CM1](https://www2.mmm.ucar.edu/people/bryan/cm1); Bryan and Fritch 2002) 
+Cloud Model 1 ([CM1](https://www2.mmm.ucar.edu/people/bryan/cm1); Bryan and Fritsch 2002) 
 that may be of general use.
 There is currently only one functionality provided here:
 The generation of __lsnudge__ (background sounding) files,
