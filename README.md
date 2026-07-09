@@ -1,8 +1,9 @@
 # Utilities for Cloud Model 1 (CM1)
 #### Repo created 6 July 2026
 
-This repository contains utility scripts and notebooks for 
-use with Cloud Model 1 (CM1) that may be of general use.
+This repository contains utility scripts and notebooks for use with 
+Cloud Model 1 ([CM1](https://www2.mmm.ucar.edu/people/bryan/cm1); Bryan and Fritch 2002) 
+that may be of general use.
 There is currently only one functionality provided here:
 The generation of __lsnudge__ (background sounding) files,
 with customizable specifications of various properties of the wind profile,
@@ -36,3 +37,13 @@ to generate __lsnudge_0001.dat.testgs__.
 
 For any questions, suggestions, comments, etc., 
 reach out to Kyle Ahern ([k.ahern@leeds.ac.uk](mailto:k.ahern@leeds.ac.uk)).
+
+### References
+- Bryan, G. H., and J. M. Fritsch, 2002: 
+A benchmark simulation for moist nonhydrostatic 
+numerical models. _Mon. Wea. Rev._, __130 (12)__, 
+2917–2928.
+- Dunion, J. P., 2011: 
+Rewriting the climatology of the 
+tropical North Atlantic and Caribbean Sea
+atmosphere. _J. Climate_, __24 (3)__, 893–908.
