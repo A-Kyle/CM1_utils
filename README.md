@@ -13,7 +13,7 @@ that can be used to set or nudge the background in CM1 simulations.
 - __gen_background.gs__ : A Grid Analysis and Display System (GrADS) script
 that generates an __lsnudge__ file with winds that satisfy specifications
 of mean-layer steering, vertical shear, and steering-relative helicity.
-Also saves an image __demo_<name>.png__ of the hodograph from
+Also saves an image __demo\_\<name\>.png__ of the hodograph from
 the generated __lsnudge__ file. Requires an __input_sounding__ 
 file to populate background profiles of temperature and moisture.
 - __gen_background.py__ : A Python script that generates __lsnudge__ files
